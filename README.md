@@ -7,9 +7,16 @@ Todas as imagens contidas na pasta input serão vetorizadas e salvas na pasta ou
 ```python
 python ./main.py 1
 ```
-
+### Imagem Original
 ![](./input/march.jpg)
+
+### Imagem Vetorizada
+![](./output/march.svg)
 
 ## Vetorização de Images Reais
 
+### Imagem Original
 ![](./input/gol.jpg)
+
+### Imagem Vetorizada.
+![](./output/gol.svg)
