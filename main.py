@@ -41,7 +41,7 @@ def save_svg(edges, filename):
     path = bitmap.trace()
     with open(f'./output/{filename}.svg', 'w') as fp:
         fp.write(
-            f'''<svg version='1.1' xmlns='http://xw.w3.org/2000/svg' xmlns:xlink='http://xw.w3.org/1999/xlink' width='{x}' height='{y}' viewBox='0 0 {x} {y}'>''')
+            f'''<svg version='1.1' xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" width='{x}' height='{y}' viewBox='0 0 {x} {y}'>''')
         parts = []
         for curve in path:
             fs = curve.start_point
