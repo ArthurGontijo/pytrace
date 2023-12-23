@@ -15,6 +15,9 @@ python ./main.py 1
 
 ## Vetorização de Images Reais
 
+```python
+python ./main.py 0
+```
 ### Imagem Original
 ![](./input/gol.jpg)
 
